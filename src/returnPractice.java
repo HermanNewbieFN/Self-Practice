@@ -1,6 +1,6 @@
 
 
-public class practise1 {
+public class returnPractice {
     public static void main(String[] args) {
 
     double sum;
