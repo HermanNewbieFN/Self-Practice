@@ -7,7 +7,7 @@ public class array {
         {
             for (int i = 0; i < sortedArray.length; i++)
 
-                System.out.println(sortedArray[i ]);
+                System.out.println(sortedArray[i]);
         }
     }
 
