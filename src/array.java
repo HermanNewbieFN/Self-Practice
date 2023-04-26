@@ -1,7 +1,14 @@
 public class array {
     public static void main(String[] args) {
-        array1();
+        //array1();
         //arrayTMS();
+        int[] awesomeArray= {125,121,345,3212};
+        int[] sortedArray= bubbleSort(awesomeArray);
+        {
+            for (int i = 0; i < sortedArray.length; i++)
+
+                System.out.println(sortedArray[i ]);
+        }
     }
 
     public static void arrayTMS() {
@@ -28,5 +35,24 @@ public class array {
             a[i] = i;
             System.out.println(a[i]);
         }
+    }
+
+    public static int[] bubbleSort(int[] array){
+
+        boolean sorted = false;
+        int temp;
+        while (!sorted) {
+            sorted = true;
+            for (int i = 0; i < array.length - 1; i++) {
+                if (array[i] > array[i + 1]) {
+                    temp = array[i];
+                    array[i] = array[i + 1];
+                    array[i + 1] = temp;
+                    sorted = false;
+                }
+            }
+        }
+
+        return array;
     }
 }
