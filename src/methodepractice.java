@@ -10,6 +10,7 @@ public class methodepractice {
                                 к след числу например 5, и уже 6 присваевает result, потом еще кружок
                                     и т.д)*/
                 result+=y;
+                
 
             }
             return result;
